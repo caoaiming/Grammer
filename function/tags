@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+fac	./const_expr.cpp	/^constexpr int fac(int n)$/;"	f	language:C++	signature:(int n)
+fun	./inline_function.cpp	/^void inline fun(int a, int b)$/;"	f	language:C++	signature:(int a, int b)
+fun1	./reference_type_function.cpp	/^void fun1(int a, int b)$/;"	f	language:C++	signature:(int a, int b)
+fun2	./reference_type_function.cpp	/^void fun2(int* a, int b)$/;"	f	language:C++	signature:(int* a, int b)
+fun3	./reference_type_function.cpp	/^void fun3(int &a, int b)\/\/由编译器换为指针$/;"	f	language:C++	signature:(int &a, int b)
+main	./const_expr.cpp	/^int main(int ac, char **av)$/;"	f	language:C++	signature:(int ac, char **av)
+main	./inline_function.cpp	/^int main(int ac, const char **av)$/;"	f	language:C++	signature:(int ac, const char **av)
+main	./reference_type_function.cpp	/^int main(int ac, char **av)$/;"	f	language:C++	signature:(int ac, char **av)
+main	./reference_type_variable.cpp	/^int main(int ac, char **av)$/;"	f	language:C++	signature:(int ac, char **av)
