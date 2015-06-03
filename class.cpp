@@ -16,7 +16,7 @@ public:
 
 int main(int ac, char **av)
 {
-    MyClass1 c1;
+    MyClass1  c1;
 //    cout << c1.code << endl;  [Error]
     cout << c1.name << endl;
     
