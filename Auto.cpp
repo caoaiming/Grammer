@@ -9,7 +9,6 @@ int main(int argc , const char* argv[])
     float v = 123456789456;
 
     wchar_t c2{3000};
-
     printf("%f\n", v);
 
     cout << c2 << endl;

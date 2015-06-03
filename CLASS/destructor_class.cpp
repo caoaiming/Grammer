@@ -36,13 +36,12 @@ int main(int ac, char **av)
 {
     Myclass myClass(1);
 
-
     Myclass *p_myClass1 = new Myclass(2);
 
     str = "Now is delete p_myClass1";
     delete p_myClass1;
 
-    str = "Now is delete myClass";
+   str = "Now is delete myClass";
 
     return 0;
 }

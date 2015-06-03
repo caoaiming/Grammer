@@ -21,7 +21,7 @@ int main(int ac, const char **av)
    const int * const c = &a;   value space AND pointer is all read-only.
    c = &b;                      [FALSE.]
    *c = b;                      [FALSE.]
-*/    
-    return 0;
+*/   
 
+    return 0;
 }

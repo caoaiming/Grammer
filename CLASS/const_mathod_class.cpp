@@ -27,5 +27,6 @@ int main(int ac, char *av[])
     Myclass myclass;
 
     cout << myclass.process(200) << endl;
+    
     return 0;
 }

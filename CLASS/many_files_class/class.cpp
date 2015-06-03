@@ -17,6 +17,7 @@ int main(int ac, char **av)
     cout << "value = " <<  p1->getValue() << endl;
 
     delete p1;
+    
 
     return 0;
 }

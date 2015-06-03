@@ -33,5 +33,6 @@ int main(int ac, char **av)
     cout << namespace1::value << endl;
     cout << namespace2::value << endl;
     namespace1::process(100);
+    
     return 0;
 }

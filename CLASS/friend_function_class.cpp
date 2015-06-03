@@ -43,7 +43,6 @@ int main(int ac, char **av)
     //MyClass result = 20 * MyClass(30);// = MyClass(30) * 20;
     //cout << result.mValue  << endl; 问题来了：私有成员，不让访问...
 
-
     MyClass result = 20 * MyClass(30);
     result.print();
 
