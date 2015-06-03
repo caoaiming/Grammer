@@ -32,5 +32,4 @@ int main(int ac, char **av)
         cout << "equl == " << class1.getObject() << endl;
     
     return 0;
-
 }
