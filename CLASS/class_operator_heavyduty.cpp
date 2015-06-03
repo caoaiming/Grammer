@@ -85,6 +85,7 @@ int main(int ac, char **av)
 
 //    cout << myClass4.getValue() << endl;
 //    cout << myClass5.getValue() << endl;
+
       cout << myClass6.getValue() << endl;
       
       Myclass myClass7 = myClass1 * myClass2;
