@@ -91,6 +91,7 @@ int main(int ac, char **av)
 //---------------------------------<<6>>-------------------------------
     new_struct = 9999;
     cout << new_struct.value  << endl;
-
+    
+    
     return 0;
 }
