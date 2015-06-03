@@ -59,8 +59,7 @@ int main(int ac, char **av)
 //    MyClass class2 = {10};
 //    MyClass class3 = {"Caming"};
 //    MyClass class4 = {11, "Casheng"};
-
     MyClass myclas1;
-
+    
     return 0;
 }
