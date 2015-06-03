@@ -22,8 +22,8 @@ int main(int ac, char **av)
     MyClass class2 = {10};
     MyClass class3 = {10, "Hello, World"};
 //    MyClass class4 = {"Unix"};
-    MyClass *p_class3 = new MyClass(10000,"Linux");
 
+    MyClass *p_class3 = new MyClass(10000,"Linux");
     delete p_class3;
 
     return 0;
