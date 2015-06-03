@@ -20,6 +20,7 @@ int main(int ac, char **av)
 {
     Inline myline;
     myline.method();
+    
     myline.process();
     return 0;
 }
