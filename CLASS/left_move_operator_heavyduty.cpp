@@ -31,7 +31,6 @@ int main(int ac, char **av)
 //    cout << myClass << "abc";
 //    错误：(cout << myClass)之后没返回值，导致后边接不上.没法调用
 //          系统默认的(ostream &a, ostream &b)继续往后走，所以需要返回值;
-    
     cout << myClass << "  is ok." << endl;
 
     return 0;
