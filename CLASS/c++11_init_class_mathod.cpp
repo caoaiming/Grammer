@@ -22,7 +22,7 @@ class Myclass
 int main(int ac, char **av)
 {
     Myclass myclass1 = {20, "Bill"};
-    Myclass myclass2{10000,  "Caming"};
+    Myclass myclass2{10000, "Caming"};
 
     return 0;
 }
