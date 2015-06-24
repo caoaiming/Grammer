@@ -14,6 +14,7 @@ public:
         //必须显示的初始化mVlaue
         //如果是一般类型,long ,int,可以这样写.
     }
+    
     T& getValue()
     {
         return mValue;
