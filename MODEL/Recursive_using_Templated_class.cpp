@@ -26,5 +26,6 @@ int main(int ac, char **av)
     TemplateClass<string> templateClass(s);
     TemplateClass<TemplateClass<string>> RecursiveClass(templateClass);
     cout << RecursiveClass.getValue().getValue() << endl;
+    
     return 0;
 }
