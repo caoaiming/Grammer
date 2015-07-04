@@ -13,7 +13,7 @@ int main(int argc ,char **av)
     cout << "c_str byte length" << sizeof(c_str) << endl;
     cout << "wc_cahr length" << sizeof(wc_str) /sizeof(wchar_t);
     cout << "wc_str byte length:" << sizeof(wc_str) << endl;
-  //-------------------------------------------------------------
+  　cout << "------------------------------------------------------＂ << endl;；
 
     char16_t w16_char[] = u"中国";
     cout << "w16_char length" << sizeof(w16_char) << endl;
