@@ -36,6 +36,7 @@ int main(int ac, char **av)
 
     unsigned long long *n = (unsigned long long *)&myUnion2;
     bitset<64> b(*n);
+    
     cout << b << endl;                                               //补码
 /*000000000000000001111111111111110100001111110000011010100110 1101*/ <1011>
 
