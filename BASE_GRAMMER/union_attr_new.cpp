@@ -20,5 +20,6 @@ int main(int argc, char **argv)
     cout << "p->code2 = " << p->code2 << endl;
 
     delete(p);
+    
     return 0;
 }
