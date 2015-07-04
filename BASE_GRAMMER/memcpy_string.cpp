@@ -20,6 +20,7 @@ int main(int ac, const char **av)
     cout << "resault: " << b1 << endl;
 
     char *ptr = (char *)n1;
+    
     for(int i = 0; i < 4; i++) {
         printf("addr[%p], %c  %d\n", ptr+i, *(ptr+i), *(ptr+i));
     }
