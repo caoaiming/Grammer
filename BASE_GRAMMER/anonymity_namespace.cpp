@@ -15,5 +15,6 @@ int main(int argc, char **argv)
 {
     using namespace space;
     std::cout << n << std::endl;
+    
     return 0;
 }
