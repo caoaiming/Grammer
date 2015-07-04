@@ -9,5 +9,6 @@ int main(int ac, char **av)
 
     if(m == 20 && (cout << "abc" << endl, n = 0))
         cout << "it's OK." << endl;        //can't cout.... <=> if(n)  ==> but n = 0 it's FALSE.
+        
     return 0;
 }
