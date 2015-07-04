@@ -8,7 +8,6 @@ int main(int ac, char **av)
     //必须初始化，初始化的值不能是数值
 
     int value1 = 100;
-
     int &value2 = value1; //类型要一致
 
     cout << "value1 = "  << value1 << endl;
