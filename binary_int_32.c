@@ -27,7 +27,6 @@ int main()
     for(i = 0; i < 4; i++) {
         printf("%d  %c\n", (*b) >> i*8 & 255);
     }
-
     printf("%s\n", b);
 
     return 0;
