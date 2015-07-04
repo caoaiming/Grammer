@@ -21,7 +21,7 @@ namespace std
    int isxdigit(int c);
    int tolower(int c);
    int toupperint c);
-} //std
+}//std
 
 #endif
 
