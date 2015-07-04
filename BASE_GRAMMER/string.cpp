@@ -24,7 +24,6 @@ int main(int ac, const char **av)
     strcpy(c_str2, c_str1);
 
     cout << c_str1 << endl;
-
     //char out[11] = "0123456789";
     string out= "0123456789";
     cout << out << endl;
