@@ -22,6 +22,7 @@ int main(int ac, char **av)
 
     for(auto b:arr_codes)
         cout << b << endl;
+        
     return 0;
 }
 
