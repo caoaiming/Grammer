@@ -27,7 +27,6 @@ int main(int argc, const char *argv[])
     cout << "Color5 size = " << sizeof(Color5) << endl;
 
     enum class Color6:unsigned char {RED, GREEN, BLUE};  //num < 255 unsignde
-    
     //C++ 11 type
     cout << "Color6 size = " << sizeof(Color6) << endl;
 
