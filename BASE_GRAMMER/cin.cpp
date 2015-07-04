@@ -13,5 +13,6 @@ int main(int ac, char **av)
     cin.get(city1, 20);
 
     cout << city1 << endl;
+    
     return 0;
 }
