@@ -22,6 +22,5 @@ int main(int ac, const char **av)
    c = &b;                      [FALSE.]
    *c = b;                      [FALSE.]
 */   
-
     return 0;
 }
