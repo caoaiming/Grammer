@@ -63,5 +63,6 @@ int main(int argc , char **argv)
  /*--------------------------------------------------------------------------------------------------------------------*/
 //      int **pp2 = (int **) new int [10][10]; //[FALSE]
 //      cout << "szieof(pp2) = " <<sizeof(pp2) << endl;  // size = 8 byte. = * pointer size = long
+
     return 0;
 }
