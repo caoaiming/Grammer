@@ -25,7 +25,6 @@ int main(int ac, char **av)
             //TODO.
         }
     }
-
     templateFun(a, b);
 
     return 0;
