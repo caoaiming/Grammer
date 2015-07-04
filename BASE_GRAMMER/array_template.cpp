@@ -78,7 +78,6 @@ int main(int ac, char **av)
 
     cout << "codes3[0] = " << codes3[0] << endl;
 
-
     return 0;
 }
 
