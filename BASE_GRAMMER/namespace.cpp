@@ -30,6 +30,7 @@ int main(int ac, char **av)
     //using 引用该命名空间下的所有成员
     //using namespace 可以放到函数内部
     //using namespace1::value 直接指定命名空间下的某个成员
+    
     cout << namespace1::value << endl;
     cout << namespace2::value << endl;
     namespace1::process(100);
