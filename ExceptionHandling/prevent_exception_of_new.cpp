@@ -27,6 +27,7 @@ int main(int ac, char **av)
         cout << ba.what() << endl;
         exit(EXIT_FAILURE);
     }
+    
     delete [] big; //万一在其他大内存机器上申请成功了，记得释放.
     
     return 0;
