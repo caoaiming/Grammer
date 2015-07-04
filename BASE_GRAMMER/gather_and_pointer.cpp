@@ -29,6 +29,5 @@ int main(int ac, char **av)
 
     for(auto p = begin(arr_code); p !=  end(arr_code); p++)
         cout << "array: " << *p << endl;
-
     return 0;
 }
