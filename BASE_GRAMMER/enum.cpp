@@ -43,6 +43,5 @@ int  main(int ac, const char **av)
     if(Color4::green == color4) {
         printf("Ok2\n");
     }
-
     return 0;
 }
