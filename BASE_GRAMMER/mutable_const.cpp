@@ -15,6 +15,7 @@ int main(int ac, char **av)
 
     mystruct.code = 20;
     mystruct.name = "abc";
+    
 
     cout << mystruct.code << "   " << mystruct.name << endl;
 
