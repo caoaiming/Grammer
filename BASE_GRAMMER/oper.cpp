@@ -12,8 +12,6 @@ int main(int argc , const char* argv[])
 
     float v1 = 565.292484256;
 
-
-
     printf("%0.7f\n", v1);
 
     printf("%0.12f\n", 1e7 /9.0);
