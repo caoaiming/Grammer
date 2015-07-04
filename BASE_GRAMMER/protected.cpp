@@ -35,5 +35,6 @@ int main(int ac, char **av)
     cout << subClass.getCode1() << endl;
     //cout << subClass.code1 << endl;  //不允许
     //cout << subClass.code2 << endl;  //不允许
+    
     return 0;
 }
