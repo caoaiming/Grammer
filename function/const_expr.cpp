@@ -15,7 +15,6 @@ int main(int ac, char **av)
     //2.带有关键字constexpr函数不可以定义函数原型，编译器无法确定能不能转换
 
     int jc = fac(10); //参数值是常量的时候才会转换.编译时,变为:jc = 3628800
-
     cout << jc << endl;
 
     return 0;
