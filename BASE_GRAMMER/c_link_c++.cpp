@@ -26,6 +26,5 @@ int main(int ac, char **av)
 
     cout << value << endl;
 
-
     return 0;
 }
